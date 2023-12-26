@@ -1,0 +1,244 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2kjblfqc8vm4"]
+
+[ext_resource type="Script" path="res://Button3.gd" id="1_quf7b"]
+[ext_resource type="Script" path="res://win.gd" id="1_xfun5"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(576, 324)
+script = ExtResource("1_xfun5")
+
+[node name="a" type="ColorRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -308.0
+offset_top = -308.0
+offset_right = 304.0
+offset_bottom = 304.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+color = Color(0.411765, 0.411765, 0.411765, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="a"]
+layout_mode = 0
+offset_right = 204.0
+offset_bottom = 204.0
+color = Color(0.356863, 0.356863, 0.356863, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect2" type="ColorRect" parent="a"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -204.0
+offset_bottom = 204.0
+grow_horizontal = 0
+color = Color(0.317647, 0.317647, 0.317647, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="a"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -204.0
+offset_right = 204.0
+grow_vertical = 0
+color = Color(0.298039, 0.298039, 0.298039, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect4" type="ColorRect" parent="a"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -204.0
+offset_top = -204.0
+grow_horizontal = 0
+grow_vertical = 0
+color = Color(0.254902, 0.254902, 0.254902, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect5" type="ColorRect" parent="a"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -102.0
+offset_top = -102.0
+offset_right = 102.0
+offset_bottom = 102.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.317647, 0.317647, 0.317647, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="one" type="Button" parent="."]
+visibility_layer = 525213
+offset_left = -308.0
+offset_top = -308.0
+offset_right = -104.0
+offset_bottom = -104.0
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="two" type="Button" parent="."]
+visibility_layer = 525213
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -104.0
+offset_top = -308.0
+offset_right = 100.0
+offset_bottom = -104.0
+grow_horizontal = 2
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="three" type="Button" parent="."]
+visibility_layer = 525213
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 100.0
+offset_top = -308.0
+offset_right = 304.0
+offset_bottom = -104.0
+grow_horizontal = 0
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="four" type="Button" parent="."]
+visibility_layer = 525213
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -308.0
+offset_top = -104.0
+offset_right = -104.0
+offset_bottom = 100.0
+grow_vertical = 2
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="five" type="Button" parent="."]
+visibility_layer = 525213
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -104.0
+offset_top = -104.0
+offset_right = 100.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="six" type="Button" parent="."]
+visibility_layer = 525213
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 100.0
+offset_top = -104.0
+offset_right = 304.0
+offset_bottom = 100.0
+grow_horizontal = 0
+grow_vertical = 2
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="seven" type="Button" parent="."]
+visibility_layer = 525213
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -308.0
+offset_top = 100.0
+offset_right = -104.0
+offset_bottom = 304.0
+grow_vertical = 0
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="eight" type="Button" parent="."]
+visibility_layer = 525213
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -104.0
+offset_top = 100.0
+offset_right = 100.0
+offset_bottom = 304.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="nine" type="Button" parent="."]
+visibility_layer = 525213
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 100.0
+offset_top = 100.0
+offset_right = 304.0
+offset_bottom = 304.0
+grow_horizontal = 0
+grow_vertical = 0
+script = ExtResource("1_quf7b")
+metadata/_edit_use_anchors_ = true
+
+[node name="Text" type="TextEdit" parent="."]
+visible = false
+layout_direction = 2
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -490.5
+offset_top = -214.0
+offset_right = 490.5
+offset_bottom = 214.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 280
+text = "X Wins"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+
+[connection signal="pressed" from="one" to="one" method="_on_pressed"]
+[connection signal="pressed" from="two" to="two" method="_on_pressed"]
+[connection signal="pressed" from="three" to="three" method="_on_pressed"]
+[connection signal="pressed" from="four" to="four" method="_on_pressed"]
+[connection signal="pressed" from="five" to="five" method="_on_pressed"]
+[connection signal="pressed" from="six" to="six" method="_on_pressed"]
+[connection signal="pressed" from="seven" to="seven" method="_on_pressed"]
+[connection signal="pressed" from="eight" to="eight" method="_on_pressed"]
+[connection signal="pressed" from="nine" to="nine" method="_on_pressed"]
