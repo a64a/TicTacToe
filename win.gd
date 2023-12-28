@@ -2,6 +2,21 @@ extends Node2D
 
 @export var i = 0
 
+func check_state():
+	var arr = [$one, $two, $three,
+			$four, $five, $six,
+			$seven, $eight, $ten]
+	# check rows
+	for i in range(0,2):
+		var row = i*3
+		if arr[row].text==arr[row+1].text==arr[row+2].text:
+			return arr[row].text
+		# sprawdzanie na ukos
+		# obrot arr o 90deg
+		
+	
+	return false
+
 func _physics_process(delta):
 	if $five.text == "x":
 		if $one.text == "x":
